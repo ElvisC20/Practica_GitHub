@@ -23,6 +23,7 @@ while salir:
            "\n12.-Prueba"
            "\n0.-Salir")
     opc = int(input("Ingrese una opcion:"))
+    print(milist)
     if(opc == 0):
         salir = False
     else:
@@ -51,5 +52,6 @@ while salir:
             Metodos.vaciar(milist)   
         if opc == 12:
             Metodos.Prueba(milist)  
+        Metodos.impresion(milist)
         
     
