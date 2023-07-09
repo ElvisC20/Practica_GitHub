@@ -66,5 +66,8 @@ class Metodos():
         else:
             lis.sort(reverse = True)
             print(lis)
+    
+    def Prueba(lis):
+        print("Esto es una prueba")
         
     

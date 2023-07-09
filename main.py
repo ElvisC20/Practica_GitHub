@@ -20,6 +20,7 @@ while salir:
            "\n9.-Dar vuelta a la lista"
            "\n10.-Ordernar Lista"
            "\n11.-Vaciar lista"
+           "\n12.-Prueba"
            "\n0.-Salir")
     opc = int(input("Ingrese una opcion:"))
     if(opc == 0):
@@ -47,6 +48,8 @@ while salir:
         if(opc == 10):
             Metodos.ordenar(milist)
         if(opc == 11):
-            Metodos.vaciar(milist)        
+            Metodos.vaciar(milist)   
+        if opc == 12:
+            Metodos.Prueba(milist)  
         
     
